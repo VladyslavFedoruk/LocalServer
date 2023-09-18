@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.error {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    h1 {
+        font-size: 100px;
+        color: white;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 60px;
+        color: white;
+    }
+}
+
+.error_body {
+    background: #73b334;
+
+}
